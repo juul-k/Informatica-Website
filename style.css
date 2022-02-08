@@ -41,3 +41,9 @@ aside {
   margin-right: -75px;
   max-width: 75px;
 }
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 95px;
+}
