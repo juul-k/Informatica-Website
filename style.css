@@ -1,49 +1,94 @@
 header {
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
 }
 
-subheader{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+body,header,subheader,navigatie {
+  
 }
 
-navigatie {
+
+subheader{
+  display: flex;
+  padding: 0vw;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  
 }
 
 content {
+  display: flex;
+  background-color: rgba(90, 138, 209, 0.884);
   font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
   font-size: 15px;
+ 
+  border-radius: 15px;
+  padding-top: 3vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-bottom: 3vw;
+  margin: 4vw;
+  
+  
+}
+p2 {
+  display: flex;
+  margin: 2vw;
+
+}
+
+table, th, td {
+  border: 1px solid;
+  margin-top: 3vw;
+  position: relative;
+}
+
+p3 {
+  display: flex;
+  border-top: solid;
+  padding-left: 30vw;
+  padding-right: 30vw;
 }
 
 footer {
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   position:fixed;
-  bottom:0px;
+  bottom:0vw;
 }
 
-logo {
+img {
   display: flex;
-  max-width:100%;
-  max-height:100%;
-  width: 75px;
-  height: 75px;
-  float: right;
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  margin-left: 90vw;
 }
 
-aside {
-  display: grid;
-  float: right;
-  padding-top: 80px;
-  margin-right: -75px;
-  max-width: 75px;
 }
-
-button {
+nav div{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  width: 95px;
+  font-size: 15px;
+  border-width: 0.25vw;
+  border-style: solid;
+  border-color: black;
 }
+nav div a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:  13px;
+  width: 95px;
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  background-color: rgb(247, 202, 104)
+}
+
+nav a:hover {
+  color: grey;
+}
+
