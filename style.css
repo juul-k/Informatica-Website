@@ -30,7 +30,9 @@ subheader{
   text-align: center;
   display: flex;
   padding: 0vw;
-  font-family: Cooper Black;;
+  padding-left: 30vw;
+  padding-right: 30vw; 
+  font-family: Cooper Black;
   font-size: 15px;
   
 }
@@ -47,7 +49,18 @@ content {
   padding-right: 8vw;
   padding-bottom: 3vw;
   margin: 4vw;
+  width: 75vw;
 }
+
+form input, textarea{
+  background-color:#4b866b;
+  font-family: Cooper Black;
+}
+
+::placeholder {
+  color: black;
+}
+
 p2 {
   color: #222f29;
   display: flex;
@@ -65,8 +78,8 @@ p3 {
   display: flex;
   border-top: solid;
   width: 100%;
-  padding-left: 30vw;
-  padding-right: 30vw;
+  padding-left: 35vw;
+  padding-right: 35vw;
 }
 
 footer {
@@ -105,6 +118,11 @@ nav div a {
   color: black;
 }
 
+head2{
+  text-align: center;
+  position: center;
+}
+
 body:before {
 content: "";
 display: block;
@@ -114,7 +132,7 @@ position: fixed;
 left: 0;
 top: 0;
 z-index: -10;
-background-image: url(https://cdn.hipwallpaper.com/m/80/70/ChblwN.jpg);
+background-image: url(/Images/background.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
