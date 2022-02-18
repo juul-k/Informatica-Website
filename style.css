@@ -54,6 +54,11 @@ content {
   height: 45%;
 }
 
+table {
+  font-family: Cooper Black;
+  font-size: 13px
+}
+
 iframe {
   width: 384px;
   height: 288px;
