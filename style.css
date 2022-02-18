@@ -9,7 +9,7 @@ header {
   padding-right: 3vw;
   padding-bottom: 1vw;
   margin: 4vw;
-   background-color:#50866e;
+  background-color:#50866e;
 }
 
 body,header,subheader,navigatie {
@@ -39,6 +39,7 @@ subheader{
 
 content {
   display: flex;
+  overflow: scroll;
   background-color:#50866e;
   font-family: Cooper Black;
   position: fixed;
@@ -50,6 +51,12 @@ content {
   padding-bottom: 3vw;
   margin: 4vw;
   width: 75vw;
+  height: 45%;
+}
+
+iframe {
+  width: 384px;
+  height: 288px;
 }
 
 form input, textarea{
