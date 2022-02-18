@@ -154,6 +154,15 @@ nav a:hover {
   color: grey;
 }
 
+table a {
+  text-decoration: none;
+  color: black;
+}
+
+table a:hover {
+  color: white;
+}
+
 .aboutlist {
   font-family: Cooper Black;
   font-size: 15px;
