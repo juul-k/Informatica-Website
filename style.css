@@ -62,6 +62,7 @@ table {
 iframe {
   width: 384px;
   height: 288px;
+  padding-left: 2vw;
 }
 
 form input, textarea{
@@ -166,4 +167,12 @@ table a:hover {
 .aboutlist {
   font-family: Cooper Black;
   font-size: 15px;
+}
+
+li {
+  font-weight: bold;
+}
+
+ul dt li{
+  font-weight: normal;
 }
