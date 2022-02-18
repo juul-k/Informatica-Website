@@ -1,26 +1,44 @@
 header {
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cooper Black;
+  text-align: center;
   font-size: 50px;
+  color: #3b574a;
+  border-radius: 15px;
+  padding-top: 1vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 1vw;
+  margin: 4vw;
+   background-color:#50866e;
 }
 
 body,header,subheader,navigatie {
   
 }
 
+logo{
+  padding-top: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+}
+
+nav{
+  text-align: center;
+}
 
 subheader{
+  text-align: center;
   display: flex;
   padding: 0vw;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cooper Black;;
   font-size: 15px;
   
 }
 
 content {
   display: flex;
-  background-color: rgba(90, 138, 209, 0.884);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color:#50866e;
+  font-family: Cooper Black;
   position: fixed;
   font-size: 15px;
   border-radius: 15px;
@@ -31,6 +49,7 @@ content {
   margin: 4vw;
 }
 p2 {
+  color: #222f29;
   display: flex;
   margin: 2vw;
 
@@ -45,16 +64,21 @@ table, th, td {
 p3 {
   display: flex;
   border-top: solid;
+  width: 100%;
   padding-left: 30vw;
   padding-right: 30vw;
 }
 
 footer {
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cooper Black;
   font-size: 15px;
+  width: 100%;
   position:fixed;
   bottom:0vw;
+  position: center; 
+  background-color:#50866e
+ 
 }
 
 img {
@@ -67,22 +91,33 @@ img {
 
 }
 nav div{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cooper Black;
   font-size: 15px;
   border-width: 0.25vw;
   border-style: solid;
   border-color: black;
 }
 nav div a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cooper Black;
   font-size:  13px;
   width: 95px;
   text-decoration: none;
   color: black;
 }
 
-body{ 
-  background-color: rgb(247, 202, 104)
+body:before {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: fixed;
+left: 0;
+top: 0;
+z-index: -10;
+background-image: url(https://cdn.hipwallpaper.com/m/80/70/ChblwN.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 
 nav a:hover {
